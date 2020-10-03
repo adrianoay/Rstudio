@@ -18,3 +18,4 @@ indice_imc
 View(indice_imc)
 View(starwars_1)
 mean(starwars_1, is.na(height))
+as.numeric(starwars_1$height)%>% mean(na.rm=T)
